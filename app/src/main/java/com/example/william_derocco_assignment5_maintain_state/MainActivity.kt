@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
+// onDestroy not needed -> sharedPreferences is already updated in `editText` and `button` listeners
 //    override fun onDestroy() {
 //        super.onDestroy()
 //
